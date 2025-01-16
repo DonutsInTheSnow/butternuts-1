@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Butternuts good dishes Facebook Feed</title>
+  <meta name="description" content="See our daily specials and up-to-date info about Butternuts good dishes, a Kitchen and Gourmet Shop on Railroad Avenue in beautiful downtown Wolfeboro, New Hampshire.">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-favicon.png" rel="apple-touch-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,600&family=Outfit:wght@100..900&family=Poppins:wght@500&family=Raleway:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/venobox/venobox.css" rel="stylesheet"> -->
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex">
+
+      <div class="logo mr-auto">
+        <a href="index.html"><img src="assets/img/butternuts-logo.webp" alt="Butternuts logo" class="img-fluid rounded"></a>
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======= fb-feed Section ======= -->
+    <section id="fb-feed" class="fb-feed">
+      <div class="container px-lg-5">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2 class="mb-3">FB-Feed</h2>
+        </div>
+
+        <div class="row justify-content-center mx-lg-n5">
+          <div class="content col-md-7" data-aos="fade-up">
+              <p>Our Facebook Feed displays our daily specials, announcements and events. You can scroll the Feed in place by hovering your cursor over it and scrolling as normal or swiping it on a tablet or mobile device.</p>
+          </div>
+        </div>
+
+        <div class="icon-boxes">
+          <div class="row no-gutters justify-content-center">
+            <div class="col-md-6 order-2 order-md-1 pt-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="fb-page-wrapper">
+                <div class="fb-page" 
+                     data-href="https://www.facebook.com/wolfeborofoodcoop" 
+                     data-tabs="timeline, events" 
+                     data-width="500" 
+                     data-height="600" 
+                     data-small-header="false" 
+                     data-adapt-container-width="true" 
+                     data-hide-cover="false" 
+                     data-show-facepile="true">
+                </div>
+              </div>             
+            </div>
+            <div class="col-md-3 order-1 order-md-2 px-3 py-3 icon-box" data-aos="fade-up" data-aos-delay="100" style="color: #0766ff;">
+                <h4>Facebook Feed</h4>
+                <p>Facebook users can visit our page by clicking or touching "Timeline" or "Events" directly in the Feed.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <span>Butternuts good dishes, Inc.</span> All Rights Reserved. Website by <a href="https://www.richhudson.org" alt="link to richhudson.org website" target="_blank">rorg.</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '370318222806428', // Replace with your App ID
+            xfbml      : true,         // Parse social plugins on this page
+            version    : 'v17.0'       // Use the latest Graph API version
+            });
+        };
+
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+</body>
+
+</html>
